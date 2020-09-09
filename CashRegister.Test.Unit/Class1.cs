@@ -22,6 +22,7 @@ namespace CashRegister.Test.Unit
         [TestCase(45.0)]
         [TestCase(0.0)]
         [TestCase(0.13)]
+        [TestCase(25.0)]
         public void AddItem_OneItem_TotalIsCorrect(double itemPrice)
         {
             // Arrange
